@@ -628,7 +628,3 @@ See LICENSE file for full terms.
 
 ---
 
-> **Clinical Disclaimer:** This software is a research prototype.
-> It is **NOT approved for clinical use**.
-> All brain region localizations are hypothesized for digital twin visualization only.
-> Always consult qualified medical professionals for clinical decisions.
