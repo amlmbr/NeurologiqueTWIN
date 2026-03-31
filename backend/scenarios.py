@@ -93,14 +93,14 @@ SCENARIOS: Dict[str, Scenario] = {
         n_steps=28,
     ),
 
-    "saclay_campus": Scenario(
-        id="saclay_campus",
-        name="Paris-Saclay Campus",
+    "campus_scenario": Scenario(
+        id="campus_scenario",
+        name="University Campus",
         description=(
-            "Scenario set at Paris-Saclay University campus, demonstrating "
+            "Scenario set on a university campus, demonstrating "
             "the system in an academic/research environment."
         ),
-        base_ems=(48.7135, 2.1624),   # Saclay SAMU
+        base_ems=(48.7135, 2.1624),
         hospitals=[
             ("Hôpital Antoine-Béclère",  48.7598, 2.3319),
             ("Centre Hospitalier de Longjumeau", 48.6918, 2.2945),
