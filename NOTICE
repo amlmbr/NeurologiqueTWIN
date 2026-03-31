@@ -12,7 +12,6 @@ All rights reserved.
 AUTHOR
 ------
 Ahmed Moubarak Lahlyal
-Paris-Saclay AI Master — M2 Intelligence Artificielle
 Project developed from June 2024 to March 2026
 
 -------------------------------------------------------------------------
@@ -80,7 +79,7 @@ Key references:
 CLINICAL DISCLAIMER
 -------------------
 This software is a research prototype developed for academic purposes
-as part of the Paris-Saclay M2 AI programme. It is NOT approved for
+as an academic research project. It is NOT approved for
 clinical use. All brain region localizations are HYPOTHESIZED for
 digital twin visualization only and are NOT medically validated.
 Always consult qualified medical professionals for clinical decisions.
