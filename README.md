@@ -14,6 +14,7 @@
 **Period:** June 2024 – March 2026
 
 ---
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/7e478be4-a2de-49c5-82a3-e41fe887a149" />
 
 ## 🏆 Award
 
@@ -624,9 +625,6 @@ See LICENSE file for full terms.
 ## 🙏 Acknowledgements
 
 - **ENSA / Forum ENSA-Entreprises** — InnnovBoost 2nd prize recognition
-- **EPILEPSIAE consortium** — SeizeIT2 dataset
-- **Hugging Face** — DistilBERT zero-shot pipeline
-- **Project Mesa** — Agent-based modeling framework
 
 ---
 
