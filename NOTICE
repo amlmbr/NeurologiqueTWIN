@@ -1,0 +1,91 @@
+NeurologiqueTWIN
+================
+
+AI-powered Neurological Digital Twin for Seizure Risk Monitoring
+using EEG, IMU, and Clinical NLP Signals
+
+Copyright (c) 2024–2026  Ahmed Moubarak Lahlyal
+All rights reserved.
+
+-------------------------------------------------------------------------
+
+AUTHOR
+------
+Ahmed Moubarak Lahlyal
+Paris-Saclay AI Master — M2 Intelligence Artificielle
+Project developed from June 2024 to March 2026
+
+-------------------------------------------------------------------------
+
+PROJECT DESCRIPTION
+-------------------
+NeurologiqueTWIN is an original research and engineering project
+combining multimodal deep learning, digital twin state machines,
+and multi-agent emergency simulation for neurological seizure
+risk monitoring. The project encompasses:
+
+  - ResNet-CBAM deep learning models (GASF / MTF / Recurrence Plot)
+    trained on the SeizeIT2 epilepsy dataset — 90% classification accuracy
+  - Explainable risk scoring with SHAP-style feature attribution
+  - Markov-chain digital twin for real-time patient state estimation
+  - Multi-agent Mesa simulation (Patient / WatchTwin / Dispatcher / Ambulance)
+  - Clinical NLP (DistilBERT zero-shot + TF-IDF fallback)
+  - XGBoost tabular model on 20-dimensional EEG + IMU features
+  - CWGAN-GP synthetic EEG data generation
+  - FastAPI REST backend (27 endpoints) + Next.js 15 frontend (9 pages)
+  - Brain digital twin SVG viewer (20 anatomical regions, axial + lateral)
+  - Docker Compose one-command deployment
+
+-------------------------------------------------------------------------
+
+THIRD-PARTY COMPONENTS
+----------------------
+This product includes software developed by third parties under their
+respective open-source licenses:
+
+  FastAPI          — MIT License         (Sebastián Ramírez)
+  Next.js          — MIT License         (Vercel, Inc.)
+  TensorFlow       — Apache 2.0          (Google LLC)
+  XGBoost          — Apache 2.0          (DMLC Project)
+  Mesa             — Apache 2.0          (Project Mesa contributors)
+  scikit-learn     — BSD 3-Clause        (scikit-learn developers)
+  NumPy            — BSD 3-Clause        (NumPy contributors)
+  Pydantic         — MIT License         (Samuel Colvin)
+  PyWavelets       — MIT License         (PyWavelets developers)
+  MNE-Python       — BSD 3-Clause        (MNE developers)
+  HuggingFace Transformers — Apache 2.0  (Hugging Face, Inc.)
+  Recharts         — MIT License         (Recharts contributors)
+  Tailwind CSS     — MIT License         (Tailwind Labs)
+  shadcn/ui        — MIT License         (shadcn)
+  React            — MIT License         (Meta Platforms, Inc.)
+
+-------------------------------------------------------------------------
+
+DATASETS & SCIENTIFIC REFERENCES
+---------------------------------
+SeizeIT2 Dataset — EPILEPSIAE European multicentre EEG database
+  Used for model training and evaluation (not redistributed).
+
+Key references:
+  [1] Woo et al., "CBAM: Convolutional Block Attention Module", ECCV 2018
+  [2] Wang & Oates, "Encoding Time Series as Images", AAAI 2015
+  [3] Chen & Guestrin, "XGBoost: A Scalable Tree Boosting System", KDD 2016
+  [4] Sanh et al., "DistilBERT, a distilled version of BERT", NeurIPS 2019
+  [5] Gulrajani et al., "Improved Training of Wasserstein GANs", NeurIPS 2017
+  [6] Hjorth, "EEG analysis based on time domain properties", EEG EMG 1970
+  [7] Masad & Kazil, "Mesa: An Agent-Based Modeling Framework", SciPy 2015
+
+-------------------------------------------------------------------------
+
+CLINICAL DISCLAIMER
+-------------------
+This software is a research prototype developed for academic purposes
+as part of the Paris-Saclay M2 AI programme. It is NOT approved for
+clinical use. All brain region localizations are HYPOTHESIZED for
+digital twin visualization only and are NOT medically validated.
+Always consult qualified medical professionals for clinical decisions.
+
+-------------------------------------------------------------------------
+
+Licensed under the Apache License, Version 2.0.
+See LICENSE file for full license text.
