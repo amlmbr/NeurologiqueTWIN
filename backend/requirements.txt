@@ -1,0 +1,43 @@
+# ============================================================
+# NeurologiqueTWIN — Backend Python Dependencies
+# ============================================================
+
+# Core
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.2
+scipy>=1.10
+matplotlib>=3.6
+plotly>=5.13
+
+# Deep Learning — ResNet-CBAM inference
+tensorflow-cpu>=2.12
+
+# EEG / signal processing
+PyWavelets>=1.4
+pyts>=0.13
+mne>=1.5
+pyedflib>=0.1.22
+scikit-image>=0.20
+
+# File upload support
+python-multipart>=0.0.9
+
+# Agent-based simulation
+mesa>=2.1
+
+# API backend
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.0
+
+# XGBoost tabular model
+xgboost>=1.7
+
+# Utilities
+geopy>=2.3
+requests>=2.28
+pyyaml>=6.0
+python-dotenv>=1.0
+Pillow>=9.0
+seaborn>=0.12

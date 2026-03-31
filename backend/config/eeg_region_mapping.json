@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "version": "2.0",
+    "system": "10-20 International EEG Electrode Placement",
+    "disclaimer": "Academic digital twin demonstration only. All region mappings are HYPOTHESIZED AFFECTED ZONES based on EEG channel topology. They do NOT constitute validated clinical localization. Results must not be used for clinical decision-making.",
+    "reference": "Jasper HH (1958). The ten-twenty electrode system of the International Federation. Electroencephalogr Clin Neurophysiol 10:371-375"
+  },
+
+  "channels": {
+    "Fp1":    { "lobe": "frontal",   "side": "left",    "region": "Left Prefrontal",     "x": -0.30, "y":  0.85, "z":  0.20, "brodmann": "BA10/BA11" },
+    "Fp2":    { "lobe": "frontal",   "side": "right",   "region": "Right Prefrontal",    "x":  0.30, "y":  0.85, "z":  0.20, "brodmann": "BA10/BA11" },
+    "FP1":    { "lobe": "frontal",   "side": "left",    "region": "Left Prefrontal",     "x": -0.30, "y":  0.85, "z":  0.20, "brodmann": "BA10/BA11" },
+    "FP2":    { "lobe": "frontal",   "side": "right",   "region": "Right Prefrontal",    "x":  0.30, "y":  0.85, "z":  0.20, "brodmann": "BA10/BA11" },
+
+    "F3":     { "lobe": "frontal",   "side": "left",    "region": "Left Frontal",        "x": -0.50, "y":  0.60, "z":  0.50, "brodmann": "BA8/BA9" },
+    "F4":     { "lobe": "frontal",   "side": "right",   "region": "Right Frontal",       "x":  0.50, "y":  0.60, "z":  0.50, "brodmann": "BA8/BA9" },
+    "F7":     { "lobe": "frontal",   "side": "left",    "region": "Left Frontotemporal", "x": -0.80, "y":  0.40, "z":  0.15, "brodmann": "BA45/BA47" },
+    "F8":     { "lobe": "frontal",   "side": "right",   "region": "Right Frontotemporal","x":  0.80, "y":  0.40, "z":  0.15, "brodmann": "BA45/BA47" },
+    "Fz":     { "lobe": "frontal",   "side": "midline", "region": "Frontal Midline",     "x":  0.00, "y":  0.65, "z":  0.65, "brodmann": "BA6/BA8" },
+
+    "C3":     { "lobe": "central",   "side": "left",    "region": "Left Motor Cortex",   "x": -0.70, "y":  0.00, "z":  0.80, "brodmann": "BA4/BA6" },
+    "C4":     { "lobe": "central",   "side": "right",   "region": "Right Motor Cortex",  "x":  0.70, "y":  0.00, "z":  0.80, "brodmann": "BA4/BA6" },
+    "Cz":     { "lobe": "central",   "side": "midline", "region": "Vertex (Motor)",      "x":  0.00, "y":  0.00, "z":  1.00, "brodmann": "BA4/BA6" },
+
+    "T3":     { "lobe": "temporal",  "side": "left",    "region": "Left Temporal",       "x": -1.00, "y": -0.05, "z":  0.10, "brodmann": "BA21/BA22" },
+    "T4":     { "lobe": "temporal",  "side": "right",   "region": "Right Temporal",      "x":  1.00, "y": -0.05, "z":  0.10, "brodmann": "BA21/BA22" },
+    "T5":     { "lobe": "temporal",  "side": "left",    "region": "Left Post-Temporal",  "x": -0.85, "y": -0.45, "z":  0.20, "brodmann": "BA37/BA39" },
+    "T6":     { "lobe": "temporal",  "side": "right",   "region": "Right Post-Temporal", "x":  0.85, "y": -0.45, "z":  0.20, "brodmann": "BA37/BA39" },
+    "T7":     { "lobe": "temporal",  "side": "left",    "region": "Left Temporal",       "x": -1.00, "y": -0.05, "z":  0.10, "brodmann": "BA21/BA22" },
+    "T8":     { "lobe": "temporal",  "side": "right",   "region": "Right Temporal",      "x":  1.00, "y": -0.05, "z":  0.10, "brodmann": "BA21/BA22" },
+    "P7":     { "lobe": "temporal",  "side": "left",    "region": "Left Post-Temporal",  "x": -0.85, "y": -0.45, "z":  0.20, "brodmann": "BA37/BA39" },
+    "P8":     { "lobe": "temporal",  "side": "right",   "region": "Right Post-Temporal", "x":  0.85, "y": -0.45, "z":  0.20, "brodmann": "BA37/BA39" },
+
+    "P3":     { "lobe": "parietal",  "side": "left",    "region": "Left Parietal",       "x": -0.55, "y": -0.55, "z":  0.65, "brodmann": "BA39/BA40" },
+    "P4":     { "lobe": "parietal",  "side": "right",   "region": "Right Parietal",      "x":  0.55, "y": -0.55, "z":  0.65, "brodmann": "BA39/BA40" },
+    "Pz":     { "lobe": "parietal",  "side": "midline", "region": "Parietal Midline",    "x":  0.00, "y": -0.50, "z":  0.85, "brodmann": "BA7/BA5" },
+
+    "O1":     { "lobe": "occipital", "side": "left",    "region": "Left Occipital",      "x": -0.35, "y": -0.95, "z":  0.25, "brodmann": "BA17/BA18" },
+    "O2":     { "lobe": "occipital", "side": "right",   "region": "Right Occipital",     "x":  0.35, "y": -0.95, "z":  0.25, "brodmann": "BA17/BA18" },
+    "Oz":     { "lobe": "occipital", "side": "midline", "region": "Occipital Midline",   "x":  0.00, "y": -1.00, "z":  0.15, "brodmann": "BA17" },
+
+    "FP1-F7": { "lobe": "frontal",   "side": "left",    "region": "Left Prefrontal",     "x": -0.30, "y":  0.85, "z":  0.20, "brodmann": "BA10" },
+    "FP1-F3": { "lobe": "frontal",   "side": "left",    "region": "Left Frontal",        "x": -0.50, "y":  0.60, "z":  0.50, "brodmann": "BA9" },
+    "FP2-F4": { "lobe": "frontal",   "side": "right",   "region": "Right Frontal",       "x":  0.50, "y":  0.60, "z":  0.50, "brodmann": "BA9" },
+    "FP2-F8": { "lobe": "frontal",   "side": "right",   "region": "Right Frontotemporal","x":  0.80, "y":  0.40, "z":  0.15, "brodmann": "BA47" },
+    "F7-T7":  { "lobe": "temporal",  "side": "left",    "region": "Left Temporal",       "x": -1.00, "y": -0.05, "z":  0.10, "brodmann": "BA22" },
+    "T7-P7":  { "lobe": "temporal",  "side": "left",    "region": "Left Post-Temporal",  "x": -0.85, "y": -0.45, "z":  0.20, "brodmann": "BA37" },
+    "F8-T8":  { "lobe": "temporal",  "side": "right",   "region": "Right Temporal",      "x":  1.00, "y": -0.05, "z":  0.10, "brodmann": "BA22" },
+    "T8-P8":  { "lobe": "temporal",  "side": "right",   "region": "Right Post-Temporal", "x":  0.85, "y": -0.45, "z":  0.20, "brodmann": "BA37" },
+    "P7-O1":  { "lobe": "occipital", "side": "left",    "region": "Left Occipital",      "x": -0.35, "y": -0.95, "z":  0.25, "brodmann": "BA18" },
+    "P8-O2":  { "lobe": "occipital", "side": "right",   "region": "Right Occipital",     "x":  0.35, "y": -0.95, "z":  0.25, "brodmann": "BA18" },
+    "F3-C3":  { "lobe": "central",   "side": "left",    "region": "Left Motor Cortex",   "x": -0.70, "y":  0.00, "z":  0.80, "brodmann": "BA6" },
+    "C4-P4":  { "lobe": "central",   "side": "right",   "region": "Right Motor Cortex",  "x":  0.70, "y":  0.00, "z":  0.80, "brodmann": "BA6" },
+    "C3-P3":  { "lobe": "parietal",  "side": "left",    "region": "Left Parietal",       "x": -0.55, "y": -0.55, "z":  0.65, "brodmann": "BA40" },
+    "F4-C4":  { "lobe": "central",   "side": "right",   "region": "Right Motor Cortex",  "x":  0.70, "y":  0.00, "z":  0.80, "brodmann": "BA6" },
+    "P3-O1":  { "lobe": "occipital", "side": "left",    "region": "Left Occipital",      "x": -0.35, "y": -0.95, "z":  0.25, "brodmann": "BA18" },
+    "P4-O2":  { "lobe": "occipital", "side": "right",   "region": "Right Occipital",     "x":  0.35, "y": -0.95, "z":  0.25, "brodmann": "BA18" }
+  },
+
+  "seizure_type_default_regions": {
+    "_disclaimer": "Fallback DEMO mapping only. Based on typical EEG onset patterns from ILAE literature. NOT clinical localization.",
+    "_reference": "Fisher RS et al. (2017). Operational classification of seizure types by the ILAE. Epilepsia 58(4):522-530.",
+
+    "Normal":         { "region": null,                "lobe": null,       "side": "none",    "confidence_label": "n/a",   "typical_channels": [] },
+    "Absence":        { "region": "Frontal Midline",   "lobe": "frontal",  "side": "midline", "confidence_label": "demo",  "typical_channels": ["Fz","F3","F4"], "note": "3Hz spike-wave generalized; frontal max in typical absence" },
+    "Focal Temporal": { "region": "Left Temporal",     "lobe": "temporal", "side": "left",    "confidence_label": "demo",  "typical_channels": ["T3","T7","F7"],  "note": "Mesial temporal lobe epilepsy (MTLE); may be R or L" },
+    "Focal Frontal":  { "region": "Left Frontal",      "lobe": "frontal",  "side": "left",    "confidence_label": "demo",  "typical_channels": ["F3","F7","Fz"],  "note": "Supplementary motor area or prefrontal onset" },
+    "Myoclonic":      { "region": "Vertex (Motor)",    "lobe": "central",  "side": "midline", "confidence_label": "demo",  "typical_channels": ["Cz","C3","C4"],  "note": "Generalized polyspike at vertex; corticospinal drive" },
+    "Tonic":          { "region": "Left Motor Cortex", "lobe": "central",  "side": "left",    "confidence_label": "demo",  "typical_channels": ["C3","Cz","F3"],  "note": "Diffuse fast beta onset from motor cortex" },
+    "Tonic-Clonic":   { "region": "Frontal Midline",   "lobe": "frontal",  "side": "midline", "confidence_label": "demo",  "typical_channels": ["Fz","Cz","Pz"],  "note": "Generalized bihemispheric; frontal max during tonic phase" }
+  },
+
+  "lobes": {
+    "frontal":   { "color_normal": "#1e3a8a", "color_alert": "#ef4444", "label": "Frontal Lobe",    "function": "Motor control, planning, executive function, Broca's area" },
+    "temporal":  { "color_normal": "#4c1d95", "color_alert": "#f97316", "label": "Temporal Lobe",   "function": "Auditory processing, declarative memory (hippocampus), language (Wernicke)" },
+    "parietal":  { "color_normal": "#065f46", "color_alert": "#eab308", "label": "Parietal Lobe",   "function": "Sensory integration, spatial awareness, attention networks" },
+    "occipital": { "color_normal": "#164e63", "color_alert": "#ec4899", "label": "Occipital Lobe",  "function": "Primary visual cortex (V1), visual pattern recognition" },
+    "central":   { "color_normal": "#78350f", "color_alert": "#dc2626", "label": "Central (Motor)", "function": "Primary motor cortex (M1), somatosensory cortex (S1)" }
+  },
+
+  "thresholds": {
+    "stable":    { "max_risk": 0.40, "alert_level": "info",   "color": "#22c55e", "action": "Continue monitoring" },
+    "elevated":  { "min_risk": 0.40, "max_risk": 0.60, "alert_level": "yellow", "color": "#eab308", "action": "Increase observation frequency" },
+    "preictal":  { "min_risk": 0.60, "max_risk": 0.80, "alert_level": "orange", "color": "#f97316", "action": "Notify caregiver, prepare for seizure" },
+    "ictal":     { "min_risk": 0.80, "alert_level": "red",    "color": "#ef4444", "action": "EMERGENCY — contact caregiver and/or emergency services" }
+  },
+
+  "highlight_intensity": {
+    "_description": "How to compute visual highlight intensity from seizure_risk",
+    "formula": "intensity = max(0, (risk - threshold_min) / (1.0 - threshold_min))",
+    "threshold_min": 0.40,
+    "color_stable":   "#22c55e",
+    "color_elevated": "#eab308",
+    "color_preictal": "#f97316",
+    "color_ictal":    "#ef4444"
+  }
+}
