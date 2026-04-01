@@ -343,8 +343,7 @@ projetneurologiquetwin/
 ├── LICENSE                            ← Apache License 2.0
 ├── NOTICE                             ← Copyright · Author · References
 ├── README.md                          ← This file
-├── requirements.txt                   ← All Python dependencies
-├── .env.example                       ← Environment variables template
+├── requirements.txt                   ← All Python dependencies    
 ├── docker-compose.yml                 ← One-command full stack
 │
 ├── backend/                           ← FastAPI production backend
